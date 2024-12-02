@@ -1,0 +1,14 @@
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.AssemblyInfoInputs.cache
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.AssemblyInfo.cs
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.csproj.CoreCompileInputs.cache
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\bin\Debug\net8.0\ImprovedVBRCTest.exe
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\bin\Debug\net8.0\ImprovedVBRCTest.deps.json
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\bin\Debug\net8.0\ImprovedVBRCTest.runtimeconfig.json
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\bin\Debug\net8.0\ImprovedVBRCTest.dll
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\bin\Debug\net8.0\ImprovedVBRCTest.pdb
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.dll
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\refint\ImprovedVBRCTest.dll
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.pdb
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.genruntimeconfig.cache
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ref\ImprovedVBRCTest.dll
