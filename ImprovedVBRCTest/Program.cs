@@ -31,7 +31,5 @@ public class ImprovedVBRCTest
         DynamicItem item2 = dynamicItemDatabase.GetItem("Flint axe");
         Console.WriteLine(item2);
 
-        Console.ReadKey();
-
     }
 }
