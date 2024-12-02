@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-public class DynamicItem : ICraftable
+public class DynamicItem : IDynamicItem
 {
 
     private const int MinQualityLevel = 1;
