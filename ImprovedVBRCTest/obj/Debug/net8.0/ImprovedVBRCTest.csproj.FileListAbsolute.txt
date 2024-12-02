@@ -12,3 +12,4 @@ C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\r
 C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.pdb
 C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.genruntimeconfig.cache
 C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ref\ImprovedVBRCTest.dll
+C:\Users\gamer\source\repos\ImprovedVBRCTest\ImprovedVBRCTest\obj\Debug\net8.0\ImprovedVBRCTest.sourcelink.json

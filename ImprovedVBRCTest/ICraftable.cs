@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Security;
 
-// Create another interface Craftable that is like this one but without the GetQualityCraftRepair method
-// So it can be used for structures and other unnacounted for craftable objects.
 public interface ICraftable
 {
 
