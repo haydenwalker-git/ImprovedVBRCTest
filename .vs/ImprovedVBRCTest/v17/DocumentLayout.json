@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\dynamicitemdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\dynamicitemdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\upgradeableitemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\upgradeableitemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dynamicItemData.json",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\dynamicItemData.json",
-              "RelativeDocumentMoniker": "ImprovedVBRCTest\\dynamicItemData.json",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\dynamicItemData.json",
-              "RelativeToolTip": "ImprovedVBRCTest\\dynamicItemData.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-03T19:27:22.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Database.cs",
               "RelativeDocumentMoniker": "ImprovedVBRCTest\\Database.cs",
@@ -60,33 +35,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpgradeableItemDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
-              "RelativeDocumentMoniker": "ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
-              "RelativeToolTip": "ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAEgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:01:49.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ItemDatabase.cs",
-              "RelativeDocumentMoniker": "ImprovedVBRCTest\\ItemDatabase.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ItemDatabase.cs",
-              "RelativeToolTip": "ImprovedVBRCTest\\ItemDatabase.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T00:29:44.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Program.cs",
               "RelativeDocumentMoniker": "ImprovedVBRCTest\\Program.cs",
