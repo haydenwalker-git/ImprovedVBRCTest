@@ -47,6 +47,7 @@ public class Item : ICraftable
         return resources;
     }
 
+    // Purely for tesitng purposes
     public override string ToString()
     {
 

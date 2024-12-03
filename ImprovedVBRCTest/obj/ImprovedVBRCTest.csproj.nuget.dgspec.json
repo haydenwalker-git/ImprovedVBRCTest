@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj": {}
+    "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj": {
+    "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj",
+        "projectUniqueName": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj",
         "projectName": "ImprovedVBRCTest",
-        "projectPath": "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj",
+        "projectPath": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ImprovedVBRCTest.csproj",
         "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\obj\\",
+        "outputPath": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,9 +42,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

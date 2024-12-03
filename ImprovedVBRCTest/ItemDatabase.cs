@@ -24,18 +24,18 @@ public class ItemDatabase
         itemDatabase.Add(name, item);
 
         // Test Item 2
-        int creates_2 = 1;
-        string category_2 = "Mead Bases";
-        string name_2 = "Mead Base: Major Healing";
-        string source_2 = "Mead ketill";
-        Dictionary<string, int> resources_2 = new Dictionary<string, int>();
+        int creates2 = 1;
+        string category2 = "Mead Bases";
+        string name2 = "Mead Base: Major Healing";
+        string source2 = "Mead ketill";
+        Dictionary<string, int> resources2 = new Dictionary<string, int>();
 
-        resources_2.Add("Honey", 10);
-        resources_2.Add("Blood clot", 4);
-        resources_2.Add("Royal jelly", 5);
+        resources2.Add("Honey", 10);
+        resources2.Add("Blood clot", 4);
+        resources2.Add("Royal jelly", 5);
 
-        Item item_2 = new Item(creates_2, category_2, name_2, source_2, resources_2);
-        itemDatabase.Add(name_2, item_2);
+        Item item2 = new Item(creates2, category2, name2, source2, resources2);
+        itemDatabase.Add(name2, item2);
 
     }
 

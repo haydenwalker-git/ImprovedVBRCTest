@@ -29,6 +29,7 @@ public class UpgradeableItem : ICraftable
         this.qualityLevelData = qualityLevelData;
 
     }
+
     public int GetCreates()
     {
         return creates;

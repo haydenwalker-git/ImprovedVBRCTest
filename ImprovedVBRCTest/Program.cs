@@ -8,7 +8,7 @@
     Created by Hayden Walker
     Ver. 11/27/24 (November 27th 2024)
     --- TO DO ---
-        - Try to find a better solution than a nested for-loop for GetResources(int qualityLevel) and ToString().
+        - Try to find a better solution than a nested for-loop for GetResources(int qualityLevel)
         - Create .JSON file to store all items and their quantities, categories, names, crafting bench (source), resource numbers required per quality level, and their required crafting bench (source) level to both craft and repair.
         - Modify UpgradeableItemDatabase to be loaded from the upgradeableItemData JSON file. Can then use this as a template for the rest of the craftable entity/item types.
         - Get started on UI
@@ -23,22 +23,23 @@ public class ImprovedVBRCTest
 {
     public static void Main(String[] args)
     {
+
+        Database database = new Database();
+
         // Upgradeable Item Testing
         Console.WriteLine("-------------------- Upgradeable Item Testing --------------------");
-        UpgradeableItemDatabase upgradeableItemDatabase = new UpgradeableItemDatabase();
-        UpgradeableItem upgradeableItem = upgradeableItemDatabase.GetItem("Club");
+        UpgradeableItem upgradeableItem = database.GetUpgradeableItem("Club");
         Console.WriteLine(upgradeableItem);
 
-        UpgradeableItem upgradeableItem2 = upgradeableItemDatabase.GetItem("Flint axe");
+        UpgradeableItem upgradeableItem2 = database.GetUpgradeableItem("Flint axe");
         Console.WriteLine(upgradeableItem2);
 
         // Non-upgradeable Item Testing
         Console.WriteLine("-------------------- Non-upgradeable Item Testing --------------------");
-        ItemDatabase itemDatabase = new ItemDatabase();
-        Item item = itemDatabase.GetItem("Major healing mead");
+        Item item = database.GetItem("Major healing mead");
         Console.WriteLine(item);
 
-        Item item2 = itemDatabase.GetItem("Mead Base: Major Healing");
+        Item item2 = database.GetItem("Mead Base: Major Healing");
         Console.WriteLine(item2);
 
     }
