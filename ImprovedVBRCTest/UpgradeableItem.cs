@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-public class DynamicItem : ICraftable
+public class UpgradeableItem : ICraftable
 {
 
     private const int MinQualityLevel = 1;
@@ -17,7 +17,7 @@ public class DynamicItem : ICraftable
     private Dictionary<int, Dictionary<string, int>> resourcesByQualityLevel;
     private Dictionary<int, int[]> qualityLevelData;
 
-    public DynamicItem (int creates, string category, string name, string source,
+    public UpgradeableItem (int creates, string category, string name, string source,
         Dictionary<int, Dictionary<string, int>> resourcesByQualityLevel, Dictionary<int, int[]> qualityLevelData)
     {
 
@@ -93,8 +93,9 @@ public class DynamicItem : ICraftable
     public override string ToString()
     {
 
-        DynamicItem itemToOut = new DynamicItem(this.creates, this.category, this.name, this.source, this.resourcesByQualityLevel, this.qualityLevelData);
-        string output = "~~~ " + itemToOut.GetName() + " ~~~\n";
+        UpgradeableItem itemToOut = new UpgradeableItem(this.creates, this.category, this.name, this.source, this.resourcesByQualityLevel, this.qualityLevelData);
+        string output = "\t~~~ " + name + " ~~~\n";
+        output += "Creates: " + creates + "\n";
 
         for (int i = 1; i <= resourcesByQualityLevel.Count; i++) // Another nested for-loop. This is so scuffed, but it works(?)
         {
@@ -102,7 +103,6 @@ public class DynamicItem : ICraftable
             Dictionary<string, int> resources = itemToOut.GetResources(i);
             Dictionary<string, int>.KeyCollection kvp = resources.Keys;
             output += "\n--- Quality Level " + i + " ---\n";
-            output += "Creates: " + itemToOut.GetCreates() + "\n";
 
             foreach (string key in kvp)
             {
