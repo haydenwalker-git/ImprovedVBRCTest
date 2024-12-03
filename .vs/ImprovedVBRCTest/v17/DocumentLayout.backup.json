@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\upgradeableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\upgradeableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|solutionrelative:improvedvbrctest\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F1DB01-D278-4D0E-AFBC-EC7FD879B897}|ImprovedVBRCTest\\ImprovedVBRCTest.csproj|c:\\users\\gamer\\source\\repos\\improvedvbrctest\\improvedvbrctest\\upgradeableitemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,38 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Item.cs",
-              "RelativeDocumentMoniker": "ImprovedVBRCTest\\Item.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Item.cs",
-              "RelativeToolTip": "ImprovedVBRCTest\\Item.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwD0AAAAJAAAAAAAAAA==",
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Database.cs",
+              "RelativeDocumentMoniker": "ImprovedVBRCTest\\Database.cs",
+              "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Database.cs",
+              "RelativeToolTip": "ImprovedVBRCTest\\Database.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwHgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T20:16:21.302Z",
+              "WhenOpened": "2024-12-03T19:02:00.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpgradeableItem.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItem.cs",
-              "RelativeDocumentMoniker": "ImprovedVBRCTest\\UpgradeableItem.cs",
-              "ToolTip": "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItem.cs",
-              "RelativeToolTip": "ImprovedVBRCTest\\UpgradeableItem.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwGMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T17:21:40.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UpgradeableItemDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
               "RelativeDocumentMoniker": "ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
-              "ToolTip": "C:\\Users\\gamer\\Source\\Repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
+              "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
               "RelativeToolTip": "ImprovedVBRCTest\\UpgradeableItemDatabase.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T02:01:49.063Z",
               "EditorCaption": ""
@@ -79,20 +62,20 @@
               "RelativeDocumentMoniker": "ImprovedVBRCTest\\ItemDatabase.cs",
               "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\ItemDatabase.cs",
               "RelativeToolTip": "ImprovedVBRCTest\\ItemDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T00:29:44.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Program.cs",
               "RelativeDocumentMoniker": "ImprovedVBRCTest\\Program.cs",
               "ToolTip": "C:\\Users\\gamer\\source\\repos\\ImprovedVBRCTest\\ImprovedVBRCTest\\Program.cs",
               "RelativeToolTip": "ImprovedVBRCTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T20:02:21.231Z",
               "EditorCaption": ""

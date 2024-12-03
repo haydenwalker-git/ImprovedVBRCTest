@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImprovedVBRCTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e88f04c925b4eb3097332e0edf7ba55985485f58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa052c0cd051e55fb44c05ea91bf3662b227ed1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImprovedVBRCTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImprovedVBRCTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
