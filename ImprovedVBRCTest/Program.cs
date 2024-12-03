@@ -10,9 +10,9 @@
     --- TO DO ---
         - Try to find a better solution than a nested for-loop for GetResources(int qualityLevel) and ToString().
         - Create .JSON file to store all items and their quantities, categories, names, crafting bench (source), resource numbers required per quality level, and their required crafting bench (source) level to both craft and repair.
-        - Modify DynamicItemDatabase to be loaded from the dynamicItemData JSON file. Can then use this as a template for the rest of the craftable entity/item types.
+        - Modify UpgradeableItemDatabase to be loaded from the upgradeableItemData JSON file. Can then use this as a template for the rest of the craftable entity/item types.
         - Get started on UI
-        - Properly separate DynamicItems (items with quality levels) from regular Items/Craftable entities and figure out good names for them.
+        - Properly separate UpgradeableItems (items with quality levels) from regular Items/Craftable entities and figure out good names for them.
             * Create an Item class without quality levels inheriting from the ICraftable class for fireworks, food, mead, etc?
         - Weep
         - Weep again because I deleted ICraftable on accident. SET UP VERSION CONTROL MORON. After you re-create ICraftable, of course.
@@ -23,12 +23,22 @@ public class ImprovedVBRCTest
 {
     public static void Main(String[] args)
     {
+        // Upgradeable Item Testing
+        Console.WriteLine("-------------------- Upgradeable Item Testing --------------------");
+        UpgradeableItemDatabase upgradeableItemDatabase = new UpgradeableItemDatabase();
+        UpgradeableItem upgradeableItem = upgradeableItemDatabase.GetItem("Club");
+        Console.WriteLine(upgradeableItem);
 
-        DynamicItemDatabase dynamicItemDatabase = new DynamicItemDatabase();
-        DynamicItem item = dynamicItemDatabase.GetItem("Club");
+        UpgradeableItem upgradeableItem2 = upgradeableItemDatabase.GetItem("Flint axe");
+        Console.WriteLine(upgradeableItem2);
+
+        // Non-upgradeable Item Testing
+        Console.WriteLine("-------------------- Non-upgradeable Item Testing --------------------");
+        ItemDatabase itemDatabase = new ItemDatabase();
+        Item item = itemDatabase.GetItem("Major healing mead");
         Console.WriteLine(item);
 
-        DynamicItem item2 = dynamicItemDatabase.GetItem("Flint axe");
+        Item item2 = itemDatabase.GetItem("Mead Base: Major Healing");
         Console.WriteLine(item2);
 
     }

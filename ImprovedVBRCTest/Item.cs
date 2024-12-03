@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel;
+using System.ComponentModel.Design.Serialization;
 
 public class Item : ICraftable
 {
@@ -45,9 +47,22 @@ public class Item : ICraftable
         return resources;
     }
 
-    public string ToString()
+    public override string ToString()
     {
-        return null;
+
+        Item itemToOut = new Item(this.creates, this.category, this.name, this.source, this.resources);
+        string output = "\t~~~ " + name + " ~~~\n";
+        output += "Creates: " + creates + "\n";
+
+        Dictionary<string, int>.KeyCollection kvp = resources.Keys;
+
+        foreach (string key in kvp)
+        {
+            output += key + ": " + resources[key] + "\n";
+        }
+
+        return output;
+
     }
 
 }

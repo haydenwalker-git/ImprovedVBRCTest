@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class DynamicItemDatabase
+public class UpgradeableItemDatabase
 {
 
-    Dictionary<string, DynamicItem> dynamicItemDatabase = new Dictionary<string, DynamicItem>();
+    Dictionary<string, UpgradeableItem> upgradeableItemDatabase = new Dictionary<string, UpgradeableItem>();
 
-    public DynamicItemDatabase()
+    public UpgradeableItemDatabase()
     {
 
+        // Test Item 1
         int creates = 1;
         string category = "Weapon";
         string name = "Club";
         string source = "Player crafting menu";
-        DynamicItem item;
         Dictionary<int, Dictionary<string, int>> resourcesByQualityLevel = new Dictionary<int, Dictionary<string, int>>();
         Dictionary<int, int[]> qualityLevelData = new Dictionary<int, int[]>();
         Dictionary<string, int> q1 = new Dictionary<string, int>();
@@ -42,15 +42,14 @@ public class DynamicItemDatabase
         qualityLevelData.Add(3, ql3);
         qualityLevelData.Add(4, ql3);
 
-        item = new DynamicItem(creates, category, name, source, resourcesByQualityLevel, qualityLevelData);
+        UpgradeableItem item = new UpgradeableItem(creates, category, name, source, resourcesByQualityLevel, qualityLevelData);
+        upgradeableItemDatabase.Add(name, item);
 
-        dynamicItemDatabase.Add(name, item);
-
+        // Test Item 2
         int creates2 = 1;
         string category2 = "Weapon";
         string name2 = "Flint axe";
         string source2 = "Workbench";
-        DynamicItem item2;
         Dictionary<int, Dictionary<string, int>> resourcesByQualityLevel2 = new Dictionary<int, Dictionary<string, int>>();
         Dictionary<int, int[]> qualityLevelData2 = new Dictionary<int, int[]>();
         Dictionary<string, int> q12 = new Dictionary<string, int>();
@@ -80,15 +79,14 @@ public class DynamicItemDatabase
         qualityLevelData2.Add(3, ql32);
         qualityLevelData2.Add(4, ql42);
 
-        item2 = new DynamicItem(creates2, category2, name2, source2, resourcesByQualityLevel2, qualityLevelData2);
-
-        dynamicItemDatabase.Add(name2, item2);
+        UpgradeableItem item2 = new UpgradeableItem(creates2, category2, name2, source2, resourcesByQualityLevel2, qualityLevelData2);
+        upgradeableItemDatabase.Add(name2, item2);
 
     }
 
-    public DynamicItem GetItem(string name)
+    public UpgradeableItem GetItem(string name)
     {
-        return dynamicItemDatabase[name];
+        return upgradeableItemDatabase[name];
     }
 
 }
