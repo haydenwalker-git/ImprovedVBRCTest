@@ -1,0 +1,28 @@
+{
+    "Template": {
+        "creates": 1,
+        "category": "",
+        "source": "",
+        "resources": {
+
+        }
+    },
+    "Major healing mead": {
+        "creates": 6,
+        "category": "Mead",
+        "source": "Fermenter",
+        "resources": {
+            "Mead Base: Major Healing": 1
+        }
+    },
+    "Mead Base: Major Healing": {
+        "creates": 1,
+        "category": "Mead Bases",
+        "source": "Mead ketill",
+        "resources": {
+            "Honey": 10,
+            "Blood clot": 4,
+            "Royal jelly": 5
+        }
+    }
+}

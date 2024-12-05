@@ -9,7 +9,7 @@
     Ver. 11/27/24 (November 27th 2024)
     --- TO DO ---
         - Try to find a better solution than a nested for-loop for GetResources(int qualityLevel)
-        - Create .JSON file to store all items and their quantities, categories, names, crafting bench (source), resource numbers required per quality level, and their required crafting bench (source) level to both craft and repair.
+        - Create .JSON file to store all items and their quantities, categories, names, crafting bench (source), resource numbers required per quality level (if applicable), and their required crafting bench (source) level to both craft and repair.
         - Modify UpgradeableItemDatabase to be loaded from the upgradeableItemData JSON file. Can then use this as a template for the rest of the craftable entity/item types.
         - Get started on UI
         - Properly separate UpgradeableItems (items with quality levels) from regular Items/Craftable entities and figure out good names for them.
